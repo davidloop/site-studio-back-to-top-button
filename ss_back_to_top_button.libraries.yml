@@ -1,0 +1,6 @@
+ss-back-to-top-button:
+  css:
+    theme:
+      css/ss-back-to-top-button.css: {}
+  js:
+    js/ss-back-to-top-button.js: {}

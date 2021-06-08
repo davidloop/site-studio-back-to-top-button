@@ -1,0 +1,70 @@
+
+/* Constants */
+/********************************************/
+.ss-back-to-top {
+  text-decoration: none;
+  opacity: 0;
+  display: block;
+  transition: opacity 0.2s ease-out;
+  position: fixed;
+  z-index: 101;
+}
+
+.ss-back-to-top.visible {
+  opacity: 1;
+}
+
+.ss-back-to-top:hover,
+.ss-back-to-top.visible:hover {
+  text-decoration: none !important;
+}
+
+.ss-back-to-top img {
+  height: auto;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Defaults */
+/* Can be turned off via component */
+/********************************************/
+.ss-back-to-top.ss-back-to-top-default,
+.ss-back-to-top.ss-back-to-top-default:hover {
+  border: none;
+  border-radius: 0;
+}
+
+/* Small */
+.ss-back-to-top.ss-back-to-top-default.small {
+  height: 32px;
+  width: 32px;
+}
+
+/* Medium */
+.ss-back-to-top.ss-back-to-top-default.medium {
+  height: 44px;
+  width: 44px;
+}
+
+/* Large */
+.ss-back-to-top.ss-back-to-top-default.large {
+  height: 56px;
+  width: 56px;
+}
+
+/* Circle */
+.ss-back-to-top.ss-back-to-top-default.circle {
+  border-radius: 50%;
+}
+
+/* Background */
+.ss-back-to-top.ss-back-to-top-default.light {
+  background: #dcdcdc;
+}
+
+.ss-back-to-top.ss-back-to-top-default.dark {
+  background: #222222;
+}

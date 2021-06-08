@@ -1,0 +1,21 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function ss_back_to_top_button_theme($existing, $type, $theme, $path) {
+  return [
+    'ss_back_to_top_button' => [
+      'template' => 'ss-back-to-top-button',
+      'variables' => [
+        'elementSettings' => NULL,
+        'elementMarkup' => NULL,
+        'elementContext' => NULL,
+        'elementClass' => NULL,
+      ],
+      'render element' => 'children',
+    ],
+  ];
+}

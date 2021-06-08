@@ -1,0 +1,21 @@
+
+{{ attach_library('ss_back_to_top_button/ss-back-to-top-button') }}
+
+{% if elementSettings.display == 1 %}
+  {% if elementSettings.componentStyle == 1 %}
+    <a href="#"
+       title="{{ elementSettings.title }}"
+       class="js-ss-back-to-top ss-back-to-top {{ elementClass }}"
+       data-scrollduration="{{ elementSettings.duration }}">
+      <img src="/modules/custom/{{ theme_hook_original }}/images/{{ elementSettings.iconStyle }}" alt="">
+    </a>
+  {% else %}
+    <a href="#"
+       title="{{ elementSettings.title }}"
+       class="js-ss-back-to-top ss-back-to-top ss-back-to-top-default {{ elementClass }} {{ elementSettings.size }} {{ elementSettings.buttonStyle }} {{ elementSettings.backgroundStyle }}"
+       style="bottom: {{ elementSettings.offsetBottom }}px; {{ elementSettings.position }}: {{ elementSettings.offsetSide }}px;"
+       data-scrollduration="{{ elementSettings.duration }}">
+      <img src="/modules/custom/{{ theme_hook_original }}/images/{{ elementSettings.iconStyle }}" alt="">
+    </a>
+  {% endif %}
+{% endif %}
