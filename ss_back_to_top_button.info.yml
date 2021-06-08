@@ -1,1 +1,8 @@
-
+name: 'Site Studio Back To Top Button'
+type: module
+description: 'A custom Site Studio element module for a back to top button.'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: Site Studio
+dependencies:
+  - cohesion
