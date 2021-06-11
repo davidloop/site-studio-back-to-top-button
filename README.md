@@ -26,6 +26,25 @@ This back to top button works exclusively with [Acquia Site Studio](https://www.
 
 <p>&nbsp;</p>
 
+#### Installation
+
+Installation coming soon ...
+
+<p>&nbsp;</p>
+
+#### Configuration
+
+The components panel has a few settings available for the default configuration of the button. There is also an option to turn off the default settings, and completely restyle the button through the component panel styles tab. The only setting that cannot be restyled is the choice of an icon, however if you are well versed in CSS, the default icon can be hidden and a custom icon image or Site Studio webfont icon can be used.
+
+<p>&nbsp;</p>
+
+- Show or hide the button on the page or inside a Site Studio component
+- How far to scroll down the page in pixels until the button animates visibility
+- Change the text for the button's title attribute
+- 
+
+<p>&nbsp;</p>
+
 ***
 
 <p>&nbsp;</p>
