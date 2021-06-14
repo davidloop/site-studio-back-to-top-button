@@ -12,7 +12,7 @@ This back to top button works exclusively with [Acquia Site Studio](https://www.
 
 <p>&nbsp;</p>
 
-- Drupal 8 or 9
+- Drupal 8+ or 9+
 - Acquia Site Studio
 - Working knowledge of Acquia Site Studio
 
@@ -41,7 +41,14 @@ The components panel has a few settings available for the default configuration 
 - Show or hide the button on the page or inside a Site Studio component
 - How far to scroll down the page in pixels until the button animates visibility
 - Change the text for the button's title attribute
-- 
+- Pick a button size (Small 32x32, Medium 44x44, Large 56x56)
+- Change the button position (Bottom Left, Bottom Right)
+- How far the button is from the side of the page in pixels
+- How for the button is from the bottom of the page in pixels
+- Choose from a square or circlular button style
+- Choose a button background style (Light or Dark)
+- Choose an icon style (Angle or Arrow)
+- Override the default styles and use the component styles tab
 
 <p>&nbsp;</p>
 
