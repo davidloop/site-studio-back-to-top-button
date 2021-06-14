@@ -28,7 +28,8 @@ This back to top button works exclusively with [Acquia Site Studio](https://www.
 
 #### Installation
 
-Installation coming soon ...
+Install via the Drupal.org modules page.<br />
+[www.drupal.org/project/site_studio_back_to_top_button](https://www.drupal.org/project/site_studio_back_to_top_button)
 
 <p>&nbsp;</p>
 
@@ -75,18 +76,6 @@ The components panel has a few settings available for the default configuration 
 *Back to top button displayed on a page*
 
 ![Screen Shot](images/ss-back-to-top-03.jpg)
-
-<p>&nbsp;</p>
-
-***
-
-<p>&nbsp;</p>
-
-### To Do
-
-<p>&nbsp;</p>
-
-- Publish to [Drupal modules](https://www.drupal.org/project/project_module) website
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
