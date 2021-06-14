@@ -45,7 +45,7 @@ The components panel has a few settings available for the default configuration 
 - Change the button position (Bottom Left, Bottom Right)
 - How far the button is from the side of the page in pixels
 - How for the button is from the bottom of the page in pixels
-- Choose from a square or circlular button style
+- Choose from a square or circular button style
 - Choose a button background style (Light or Dark)
 - Choose an icon style (Angle or Arrow)
 - Override the default styles and use the component styles tab
