@@ -12,7 +12,7 @@ This back to top button works exclusively with [Acquia Site Studio](https://www.
 
 <p>&nbsp;</p>
 
-- Drupal 8+ or 9+
+- Drupal 8+
 - Acquia Site Studio
 - Working knowledge of Acquia Site Studio
 
